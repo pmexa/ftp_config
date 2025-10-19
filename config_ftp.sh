@@ -6,7 +6,7 @@ if [[ $EUID -ne 0 ]];then
 	echo "Tem de entrar como root para executar isto"
 	exit 1
 fi
-
+yum update -y
 #FTP#
 
 echo "========================================"
